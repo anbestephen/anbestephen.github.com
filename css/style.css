@@ -1,0 +1,289 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+
+
+/* for home page */
+.grid-container.home,.grid-container.service,.grid-container.team, .grid-container.skills,
+.grid-container.portfolio,.grid-container.about,.grid-container.contact{
+	padding:0px 100px 100px 100px;
+	//font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+
+	color: white;
+
+}
+.grid-container h1{
+ text-transform: uppercase;
+ text-align: center;
+ font-size: 2.5em;
+ font-weight: 300;
+ padding-top: 100px;
+}
+.grid-container.home h1{
+	margin-top: 60px;
+}
+.grid-container.home{
+	//background: #87509c;
+	background-image: url('../img/bg.png');
+    background-repeat: repeat-y; /* for vertical repeat */
+    background-repeat: repeat-x; /* for horizontal repeat */
+    //height:1000px;
+	color: white;
+	padding-top: 20px;
+}
+.grid-container.home .menu{
+	width: 100%;
+	position: fixed;
+	left:0;
+	top:0;
+	transition: all .2s ease;
+	color: white;
+	padding: 20px 100px 0px 100px;
+
+}
+.grid-container.home .menu .logo{
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+}
+.grid-container.home .menu .logo img{
+    position: relative;
+	float: left;
+	width: 70px;
+	top: -10px;
+
+}
+.grid-container.home ul{
+	float: right;
+}
+.grid-container.home li{
+	list-style: none;
+	float: left;
+}
+.grid-container.home li a{
+	display: inline-block;
+	padding: 10px 0px;
+	text-decoration: none;
+	color: inherit;
+	width: 100px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.grid-container.home li a:hover{
+	background: #eb7d4b;
+	border-radius: 50px;
+	color: white;
+}
+.grid-container.home .topic-line,.grid-container.service .topic-line , .grid-container.team .topic-line ,.grid-container.skills .topic-line,.grid-container.contact .topic-line ,.grid-container.about .topic-line{
+	width: 100%;
+	text-align: center;
+}
+.grid-container.home .topic-line span{
+	display: inline-block;
+	border-right: 100px solid #eb7d4b;
+	border-top:3px solid #eb7d4b;
+}
+
+.grid-container.home> p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2em;
+	padding:20px 100px;
+}
+.grid-container.home .btn{
+	text-align: center;
+}
+.grid-container.home .btn a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	background: #eb7d4b;
+	text-transform: uppercase;
+	padding: 20px 70px;
+	border-radius: 50px;
+	margin-top: 50px;
+}
+.grid-container.service{
+  background: #e7f1f8;
+  color: #46516a;
+}
+.grid-container.service .title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.grid-container.service .icon{
+	text-align: center;
+}
+.grid-container.service .icon-inline{
+	width: 130px;
+	height: 130px;
+	line-height: 130px;
+	color: #46516a;
+	display: inline-block;
+	border: 3px solid #46516a;
+	border-radius: 50%;
+	font-size: 70px;
+	margin: auto;
+	text-align: center;
+}
+.grid-container.service .icon i{
+	
+	
+	
+}
+.grid-container.service .content{
+	text-align: center;
+}	
+.grid-container.service .topic-line span{
+	display: inline-block;
+	border-right: 100px solid #46516a;
+	border-top:3px solid #46516a;
+}
+.grid-container.team{
+	background: #17c2a4;
+
+}
+.grid-container.team .topic-line span{
+	display: inline-block;
+	border-right: 100px solid #14a58c;
+	border-top:3px solid #14a58c;
+}
+.grid-container.skills{
+	background: #ffffff;
+	color: #757D75;
+}
+.grid-container.skills div{
+	text-align: center;
+}
+.grid-container.skills .topic-line span{
+	display: inline-block;
+	border-right: 100px solid #757D75;
+	border-top:3px solid #757D75;
+}
+.grid-container.portfolio{
+	background: #ffdd99;
+
+}
+.grid-container.about{
+	background: #d74680;
+}
+.grid-container.about img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.grid-container.about .title{
+	text-align: center;
+	color: #f1a790;
+	font-weight: bold;
+	margin: 0px 0px 20px 0px;
+	font-size: 1.5em;
+}
+.grid-container.about .content{
+	font-size: 1.2em;
+}
+.grid-container.about .social ul{
+	list-style: none;
+	display: block;
+	text-align: center;
+	display: inline-block;
+}
+.grid-container.about .social{
+	text-align: center;
+	margin-top: 40px;
+}
+.grid-container.about .social ul li{
+	float: left;
+	margin: 10px;
+}
+.grid-container.about .social ul li a{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 35px;
+	margin: 10px;
+	border: 3px solid white;
+	padding: 5px;
+	border-radius: 50%;
+}
+.grid-container.about .social ul li a i{
+	color: white;
+	
+}
+.grid-container.about .topic-line span{
+	display: inline-block;
+	border-right: 100px solid #ba3d6f;
+	border-top:3px solid #ba3d6f;
+}
+
+.grid-container.contact{
+	background: #3c5499;
+}
+.grid-container.contact p{
+	text-align: center;
+	margin-top: 10px;
+	
+}
+.grid-container.contact .topic-line span{
+	display: inline-block;
+	border-right: 100px solid #293c74;
+	border-top:3px solid #293c74;
+}
+.grid-container.contact .form{
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+.grid-container.contact .form input{
+	height: 40px;
+	background: #293c74;
+	color: black;
+	width: 350px;
+	border: 1px solid #293c74;
+	border-radius: 5px;
+	margin: 20px;
+	padding-left: 10px;
+	color: #fff;
+}
+.grid-container.contact .form textarea{
+	width: 740px;
+	background: #293c74;
+	color: black;
+	border: 1px solid #293c74;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1.2em;
+	color: #fff;
+	height: 180px;
+
+}
+.grid-container.contact .form button{
+	color: #fff;
+	padding: 15px 30px;
+	background: #30bae7;
+	border: 1px solid #30bae7;
+	border-radius: 5px;
+	margin-top: 40px;
+	font-style: 1.2em;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	left:0;
+	top:0;
+	background: white;//#2c3e50;
+	transition: all .2s ease;
+	//border-bottom: 2px solid rgb(230,230,230);
+	color: #37425d !important;
+-webkit-box-shadow: 0px 1px 8px 0px rgba(180, 180, 180, 1);
+-moz-box-shadow:    0px 1px 8px 0px rgba(180, 180, 180, 1);
+box-shadow:         0px 1px 8px 0px rgba(180, 180, 180, 1);
+}
+a.anchor{
+	display: block; 
+	 position: relative; 
+	 top: -80px;
+	 visibility: hidden;
+	}
