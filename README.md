@@ -1,3 +1,3 @@
 # anbestephen.github.com
 
-### My github site , with automatically generated content
+### My github site , with basic information about me
