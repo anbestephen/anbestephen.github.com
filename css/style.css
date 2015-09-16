@@ -4,7 +4,7 @@
 
 /* for home page */
 .grid-container.home,.grid-container.service,.grid-container.team, .grid-container.skills,
-.grid-container.portfolio,.grid-container.about,.grid-container.contact{
+.grid-container.portfolio,.grid-container.about,.grid-container.contact , .grid-container.footer{
 	padding:0px 100px 100px 100px;
 	//font-family: 'Lato', sans-serif;
 	font-family: 'Open Sans', sans-serif;
@@ -293,5 +293,4 @@ a.anchor{
 	text-align: center;
 	color:white;
 	background: black;
-	font-family: 'Open Sans', sans-serif;
 }
