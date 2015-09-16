@@ -288,7 +288,10 @@ a.anchor{
 	 visibility: hidden;
 	}
 .grid-container .footer{
+	padding: 5px;
+	font-size: 12px;
 	text-align: center;
 	color:white;
 	background: black;
+	font-family: 'Open Sans', sans-serif;
 }
