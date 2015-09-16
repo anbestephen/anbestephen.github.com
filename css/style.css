@@ -287,3 +287,8 @@ a.anchor{
 	 top: -80px;
 	 visibility: hidden;
 	}
+grid-container.footer{
+	text-align: center;
+	color:white;
+	background: black;
+}
